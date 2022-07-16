@@ -16,11 +16,7 @@ body{
 .button-container {
   display: flex;
 
-  justify-content: center;
 
-  margin-bottom: 2em;
-
-  
 }
 
 button {
@@ -28,18 +24,9 @@ button {
   font-weight: bold;
 }
 
-.main-container {
 
-  width: 50%;
-  margin: 0 auto;
-
-  max-width: 950px;
-
-  
-}
 
 h1 {
-  text-align: center;
 
   font-size: 30px;
 
@@ -48,16 +35,7 @@ h1 {
   font-family: 'Press Start 2P', cursive;
 }
 
-.sketch-container{
 
-  margin: 0 auto;
-}
-
-.content-container {
-
-  margin: 0 auto;
-  width: 50%;
-}
 
 .btn {
   font-size: 23px;
@@ -67,20 +45,11 @@ h1 {
   padding-inline: 1.5em;
   padding-block: 0.2em;
 }
-
-.btn2 {
-  padding-inline: 1.3em;
-}
+  
 
 h2 {
   
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
-
-  margin-top: 1.2em;
-
-  
-  
 }
 
 a {
@@ -91,4 +60,44 @@ a {
 
 img{
   height: 1em;
+}
+
+section {
+
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Test */
+.main-container {
+  
+  width: 60%;
+
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.button-container{
+  justify-content: space-between;
+}
+
+.sketch-container {
+  background-color: violet;
+  width: 80%;
+  margin: 0 auto;
+
+  margin-bottom: 2.5em;
+}
+
+h2 {
+  text-align: center;
+}
+
+.button-container {
+  margin-inline: 3.9em;
+
+  margin-bottom: 2em;
 }
